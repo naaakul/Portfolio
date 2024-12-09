@@ -8,7 +8,7 @@ import { GiPaperArrow } from "react-icons/gi";
 const page = () => {
   return (
     <div className='flex justify-center'>
-        <div className='h-screen w-[59%] flex flex-col gap-4 mt-8'>
+        <div className='h-screen w-[60rem] flex flex-col gap-4 mt-8'>
             <div className='h-44 flex gap-4'>
                 <div className='box flex-grow flex items-center gap-4 px-4 rounded-3xl'>
                     <div className="w-36 h-36 rounded-full overflow-hidden relative">
@@ -29,7 +29,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='box h-44 rounded-3xl flex items-center px-4'>
+            <div className='box h-44 rounded-3xl flex items-center px-4 py-4'>
                 <p className='text-zinc-500 text-xl relative'><span className='text-5xl text-white'>Hi,</span> I’m <span className='font-medium text-white'>Nakul.</span> I build stuff with <span className='font-medium mr-4 relative text-white'>Next.js &nbsp;&nbsp;&nbsp;<span><img src="/icon 1.png" className='h-7 border rounded-full absolute -top-1 left-[4.1rem]' alt="" /></span></span>, dabble in <span className='font-medium relative text-white'>Web3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="/icon 2.png" className='h-7 w-7 border rounded-full absolute -top-1 left-[3.5rem]' alt="img" /><img src="/icon 3.png" className='h-7 border rounded-full absolute -top-1 left-[5.6rem]' alt="" /></span>       and AI-ML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><img src="/icon 4.png" className='h-7 border rounded-full absolute -top-1 left-[13.7rem]' alt="" /></span> </span>         , and take on <span className='font-medium text-white'>design and freelance gigs</span><span className='relative'><span className='h-7 w-16 rounded-full absolute top-[-0.2rem] left-[0.38rem] bg-[#031EA1] flex py-2 pl-3'><img src="/arrow.png" alt="" /></span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</p>
             </div>
             <div className='box p-4 rounded-3xl'>
@@ -79,7 +79,6 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className=''></div>
         </div>
     </div>
   )
