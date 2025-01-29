@@ -33,19 +33,29 @@ export default function RootLayout({
       >
         <div className="relative min-h-screen">
           {/* Background Video */}
-          {/* <video
+          <video
             autoPlay
             loop
             muted
-            className="absolute top-[-300px] left-0 w-full h-full object-cover z-0"
+            className="opacity-40 fixed top-0 left-0 w-full h-full object-cover z-0"
           >
             <source src="/bg.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video> */}
+          </video>
+          
+          <div 
+            style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            backdropFilter: 'blur(15px)',
+            zIndex: 2,
+            }}/>
 
-          <nav className="fixed top-0 w-full z-50">
+          <nav className="absolute top-0 w-full z-50">
           <div className="max-w-5xl mx-auto px-4 py-4">
-            <div className="flex justify-center items-center space-x-8">
+            <div className="flex justify-center pt-2 items-center space-x-8">
               <Link 
                 href="/about" 
                 className="text-sm transition-colors"

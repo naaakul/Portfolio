@@ -7,8 +7,8 @@ import { GiPaperArrow } from "react-icons/gi";
 
 const page = () => {
   return (
-    <div className='flex justify-center'>
-        <div className='h-screen w-[60rem] flex flex-col gap-4 mt-8'>
+    <div className='flex justify-center mt-14'>
+        <div className=' w-[60rem] flex flex-col gap-4 mt-8'>
             <div className='h-44 flex gap-4'>
                 <div className='box flex-grow flex items-center gap-4 px-4 rounded-3xl'>
                     <div className="w-36 h-36 rounded-full overflow-hidden relative">
@@ -78,6 +78,9 @@ const page = () => {
                         <GiPaperArrow size={20} className='-rotate-45'/>
                     </div>
                 </div>
+            </div>
+            <div>
+                <h5 className='text-sm text-center mt-16 relative font-extralight text-zinc-700'><span className='text-lg absolute left-[350px] -top-[2px]'>©</span> All rights reserved by <span className='text-[#172779]'>Nakul Chouksey</span></h5>
             </div>
         </div>
     </div>
