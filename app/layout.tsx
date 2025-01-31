@@ -55,7 +55,7 @@ export default function RootLayout({
 
           <nav className="absolute top-0 w-full z-50">
           <div className="max-w-5xl mx-auto px-4 py-4">
-            <div className="flex justify-center pt-2 items-center space-x-8">
+            <div className="flex justify-center pt-2 items-center gap-16 space-x-8">
               <Link 
                 href="/about" 
                 className="text-sm transition-colors"
