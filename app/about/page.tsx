@@ -8,7 +8,7 @@ import { GiPaperArrow } from "react-icons/gi";
 const page = () => {
   return (
     <div className='flex justify-center mt-14'>
-        <div className=' w-[60rem] flex flex-col gap-4 mt-8'>
+        <div className='w-[60rem] flex flex-col gap-4 mt-8'>
             <div className='h-44 flex gap-4'>
                 <div className='box flex-grow flex items-center gap-4 px-4 rounded-3xl'>
                     <div className="w-36 h-36 rounded-full overflow-hidden relative">
